@@ -28,7 +28,9 @@
             ],
             "styles": [
               "src/custom-theme.scss",
-              "src/styles.css"
+              "src/styles.css",
+                "node_modules/ag-grid-community/styles/ag-grid.css",
+                "node_modules/ag-grid-community/styles/ag-theme-balham.css"
             ],
             "scripts": []
           },
@@ -37,7 +39,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "2mb",
+                  "maximumWarning": "4mb",
                   "maximumError": "10mb"
                 },
                 {

@@ -11,8 +11,8 @@ import { ColDef, GridApi } from 'ag-grid-community';
 import { HttpClient } from '@angular/common/http';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
-import 'ag-grid-community/styles/ag-grid.css';
-import 'ag-grid-community/styles/ag-theme-balham.css';
+// import 'ag-grid-community/styles/ag-grid.css';
+// import 'ag-grid-community/styles/ag-theme-balham.css';
 import { provideGlobalGridOptions } from 'ag-grid-community';
 
 provideGlobalGridOptions({ theme: 'legacy' });
